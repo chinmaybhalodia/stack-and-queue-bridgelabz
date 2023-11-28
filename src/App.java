@@ -1,20 +1,15 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // creating a stack
-        Stack<Integer> stack = new Stack<>();
+        // creating a Queue
+        Queue<Integer> queue = new Queue<>();
 
-        stack.push(70);
-        stack.push(30);
-        stack.push(56);
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
 
-        // prints the stack horizontally
-        // i.e. first element is the bottom-most in stack
-        System.out.println(stack);
-
-        // UC2: peek and pop
-        System.out.println(stack.peek());
-        stack.pop();
-        System.out.println(stack);
+        // prints the Queue horizontally
+        // i.e. first element is the first element of queue
+        System.out.println(queue);
     }
 }
