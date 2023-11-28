@@ -11,5 +11,9 @@ public class App {
         // prints the Queue horizontally
         // i.e. first element is the first element of queue
         System.out.println(queue);
+
+        // UC4: dequeue method
+        queue.dequeue();
+        System.out.println(queue);
     }
 }
